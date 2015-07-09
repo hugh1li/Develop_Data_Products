@@ -1,3 +1,7 @@
+#Overview
+# This is a simulation experiment for 95% confidence interval for normal distribution x~N(mean=2,sd=5).
+# First a population is created, and then samples are drawn each time with size n given by the user. Finally 
+# 95% CI is drawn based on the sample and users get a sense of what the mean of 95% is.
 library(shiny)
 library(scales)
 
